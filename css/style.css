@@ -19,9 +19,6 @@
 main{
     width: 80%;
     margin: auto;
-    /* debug */
-    height: 600px;
-    background-color: aquamarine;
 }
 
 
@@ -51,12 +48,12 @@ main{
 
 .item img{
     float: left;
-    width: 30%;
+    width: 80px;
 }
 
 .item div{
     float: left;
-    padding: 1em;
+    padding: 0.4em 0.8em;
     color: white;
 }
 
