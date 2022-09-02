@@ -26,7 +26,7 @@ main{
 
 
 /* SEZIONE ALTA */
-.top  h1{
+.top h1{
     text-align: center;
     line-height: 2em;
     font-size: 2.2rem;
@@ -38,4 +38,15 @@ main{
 }
 
 /* SEZIONE BASSA */
+.row{
+    margin: 2em 0;
+    display: flex;
+    justify-content: space-between;
+}
 
+.item{
+    width: calc(100% / 3 - (3em / 2));
+    /* debug */
+    height: 80px;
+    background-color: blue;
+}
