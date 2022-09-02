@@ -14,6 +14,7 @@
 }
 
 
+
 /* MAIN */
 main{
     width: 80%;
@@ -22,4 +23,19 @@ main{
     height: 600px;
     background-color: aquamarine;
 }
+
+
+/* SEZIONE ALTA */
+.top  h1{
+    text-align: center;
+    line-height: 2em;
+    font-size: 2.2rem;
+    color: #B7275A;
+}
+
+.top p{
+    text-align: center;
+}
+
+/* SEZIONE BASSA */
 
