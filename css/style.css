@@ -30,10 +30,6 @@ main{
     color: #B7275A;
 }
 
-.top p{
-    text-align: center;
-}
-
 /* SEZIONE BASSA */
 .row{
     margin: 2em 0;
@@ -44,6 +40,7 @@ main{
 .item{
     width: calc(100% / 3 - (3em / 2));
     background-color: #0C0B12;
+    box-shadow: 4px 4px 4px;
 }
 
 .item img{
