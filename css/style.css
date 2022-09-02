@@ -46,7 +46,17 @@ main{
 
 .item{
     width: calc(100% / 3 - (3em / 2));
-    /* debug */
-    height: 80px;
-    background-color: blue;
+    background-color: #0C0B12;
 }
+
+.item img{
+    float: left;
+    width: 30%;
+}
+
+.item div{
+    float: left;
+    padding: 1em;
+    color: white;
+}
+
