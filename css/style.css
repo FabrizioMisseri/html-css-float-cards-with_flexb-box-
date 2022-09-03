@@ -48,9 +48,13 @@ main{
     width: 80px;
 }
 
-.item div{
+.item > div{
     float: left;
     padding: 0.4em 0.8em;
     color: white;
 }
 
+.row a{
+    text-decoration: none;
+    color: aquamarine;
+}
