@@ -41,15 +41,14 @@ main{
     width: calc(100% / 3 - (3em / 2));
     background-color: #0C0B12;
     box-shadow: 4px 4px 4px;
+    display: flex; 
 }
 
-.item img{
-    float: left;
+.item > img{
     width: 80px;
 }
 
 .item > div{
-    float: left;
     padding: 0.4em 0.8em;
     color: white;
 }
